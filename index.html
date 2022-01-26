@@ -1,1 +1,78 @@
-<h1>Hello</h1>
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+	<link href="styles/style.css" rel="stylesheet" type="text/css">
+    <title>Questionnaire</title>
+  </head>
+  
+  <body>
+	<h1>Survey</h1>
+	<form id="myform" action="index.php" >
+	<br>
+	<br>
+	<h2>What do you think of the UI in this <a href="https://www.porsche.com/canada/en/">Porsche</a> site?</h2>	
+	<br>
+	<br>
+	<! You should make your image clickable>
+	<a href="https://www.porsche.com/canada/en/">
+        <img src="images/porsche.jpg" width="100%" height="100%">
+    </a>
+	<br>
+	<br>	
+		
+	<div class="question">
+        <ol>
+            <li>
+                <h4>What you like about the text color?</h4>
+                <input type="checkbox" name="Color" value="Red">White<br>
+                <input type="checkbox" name="Color" value="Green">Red<br>
+                <input type="checkbox" name="Color" value="Blue">Black<br>
+            </li>
+
+            <li>
+                <h4>Do like margin between images or not?</h4>
+                <input type="radio" name="margin" value="yes">Yes<br>
+                <input type="radio" name="margin" value="no">No<br>
+            </li>
+
+            <li>
+                <h4>Which position would you like about the model navigation bar?</h4>
+                <select id="model-nav-bar">
+                    <option value="top" selected="selected">Top</option>
+                    <option value="top fixed">Top Fixed</option>
+                    <option value="bottom">Bottom</option>
+                    <option value="bottom fixed">Bottom Fixed</option>
+                </select>
+            </li>
+
+            <li>
+                <h4>What cards do you already have?</h4>
+                <input type="checkbox" name="model" value="porsche-718">Porsche 718<br>
+                <input type="checkbox" name="model" value="porsche-911">Porsche 911<br>
+                <input type="checkbox" name="model" value="porsche-taycan">Porsche Taycan<br>
+                <input type="checkbox" name="model" value="porsche-panamera">Porsche Panamera<br>
+                <input type="checkbox" name="model" value="porsche-macan">Porsche Macan<br>
+                <input type="checkbox" name="model" value="porsche-cayenne">Porsche Cayenne<br>
+                <input type="checkbox" name="model" value="no">I don't have a Porsche<br>
+            </li>
+            <br>
+            <li>
+                Comments:<br>
+                <textarea rows="8" cols="50"></textarea>
+            </li>
+        </ol>
+	</div>
+	
+	<br>
+	<br>
+			
+	<button id="submitButton" type="button" class="block">
+		SUBMIT your questionnaire
+	</button>
+		
+	<p id="signature">Site created by Tommy Zhang</p>	
+	
+	</form>
+  </body>
+</html>
