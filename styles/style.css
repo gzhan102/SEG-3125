@@ -1,6 +1,10 @@
 /* This style sheet is taken from  https://www.w3schools.com/howto/howto_js_tabs.asp> */
 
 /* Style the tab */
+.title {
+  text-align: center;
+  font-style: italic;
+}
 .tab {
     overflow: hidden;
     border: 1px solid #ccc;
