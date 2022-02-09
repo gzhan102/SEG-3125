@@ -7,8 +7,7 @@ var products = [
 		vegetarian: true,
 		glutenFree: true,
 		organic: true,
-		price: 1.99,
-		category: "vegetable"
+		price: 1.99
 	},
 	{
 		name: "bread",
@@ -57,16 +56,14 @@ var products = [
 		vegetarian: true,
 		glutenFree: true,
 		organic: true,
-		price: 4.00,
-		category: "vegetable"
+		price: 4.00
 	},
 	{
 		name: "melon",
 		vegetarian: true,
 		glutenFree: true,
 		organic: true,
-		price: 2.99,
-		category: "fruit"
+		price: 2.99
 	},
 	{
 		name: "potato",
@@ -105,13 +102,12 @@ function restrictListProducts(prods, restriction) {
 }
 
 // Calculate the total price of items, with received parameter being a list of products
-function getTotalPrice(items) {
+function getTotalPrice(chosenProducts) {
 	totalPrice = 0;
 	for (let i=0; i<products.length; i+=1) {
-		var productName = products[i].name;
-		var price = products[i].price;
-		var unit = items[productName];
-		totalPrice += price * unit;
+		if (chosenProducts.indexOf(products[i].name) > -1){
+			totalPrice += products[i].price;
+		}
 	}
-	return totalPrice.toFixed(2);
+	return totalPrice;
 }
