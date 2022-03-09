@@ -2,13 +2,13 @@
 <html>
   <head>
     <meta charset="utf-8">
-	<link href="styles/style.css" rel="stylesheet" type="text/css">
+	<link href="/styles/style.css" rel="stylesheet" type="text/css">
     <title>Questionnaire</title>
   </head>
   
   <body>
 	<div class="container">
-        <form id="myform" action="index.php" >
+        <form id="myform" method="post">
             <fieldset>
                 <legend id="title">Survey</legend>
                 <h2>What do you think of the UI in this <a href="https://www.porsche.com/canada/en/">Porsche</a> site?</h2>	
@@ -24,9 +24,9 @@
                     <ol>
                         <li>
                             <h4>What you like about the text color?</h4>
-                            <input type="radio" name="color" value="Red">White<br>
-                            <input type="radio" name="color" value="Green">Red<br>
-                            <input type="radio" name="color" value="Blue">Black<br>
+                            <input type="radio" name="color" value="White">White<br>
+                            <input type="radio" name="color" value="Red">Red<br>
+                            <input type="radio" name="color" value="Black">Black<br>
                         </li>
 
                         <li>
@@ -37,7 +37,7 @@
 
                         <li>
                             <h4>Which position would you like about the model navigation bar?</h4>
-                            <select id="model-nav-bar">
+                            <select name="position" id="model-nav-bar">
                                 <option value="top" selected="selected">Top</option>
                                 <option value="top fixed">Top Fixed</option>
                                 <option value="bottom">Bottom</option>
@@ -46,14 +46,14 @@
                         </li>
 
                         <li>
-                            <h4>What cards do you already have?</h4>
-                            <input type="checkbox" name="model" value="porsche-718">Porsche 718<br>
-                            <input type="checkbox" name="model" value="porsche-911">Porsche 911<br>
-                            <input type="checkbox" name="model" value="porsche-taycan">Porsche Taycan<br>
-                            <input type="checkbox" name="model" value="porsche-panamera">Porsche Panamera<br>
-                            <input type="checkbox" name="model" value="porsche-macan">Porsche Macan<br>
-                            <input type="checkbox" name="model" value="porsche-cayenne">Porsche Cayenne<br>
-                            <input type="checkbox" name="model" value="no">I don't have a Porsche<br>
+                            <h4>What cars do you already have?</h4>
+                            <input type="radio" name="model" value="porsche-718">Porsche 718<br>
+                            <input type="radio" name="model" value="porsche-911">Porsche 911<br>
+                            <input type="radio" name="model" value="porsche-taycan">Porsche Taycan<br>
+                            <input type="radio" name="model" value="porsche-panamera">Porsche Panamera<br>
+                            <input type="radio" name="model" value="porsche-macan">Porsche Macan<br>
+                            <input type="radio" name="model" value="porsche-cayenne">Porsche Cayenne<br>
+                            <input type="radio" name="model" value="no">I don't have a Porsche<br>
                         </li>
                         <br>
                         <li>
@@ -66,7 +66,7 @@
                 <br>
                 <br>
                         
-                <button id="submitButton" type="button" class="block">
+                <button id="submitButton" type="submit" class="block">
                     SUBMIT your questionnaire
                 </button>
                     

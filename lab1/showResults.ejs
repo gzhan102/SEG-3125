@@ -1,0 +1,33 @@
+<html lang="en-US">
+<head>
+    <title>Survey Analysis</title>
+</head>
+
+<body>
+    <h1>Survey analysis</h1>
+    <h2>Colors</h2>
+    <ul>
+    <% for (var i=0; i<results[0].length; i++){ %>
+        <li><%= results[0][i].color %> :  <%= results[0][i].count %></li>
+    <% } %>    
+    </ul>
+    <h2>Margin</h2>
+    <ul>
+    <% for (var i=0; i<results[1].length; i++){ %>
+        <li><%= results[1][i].margin %> :  <%= results[1][i].count %></li>
+    <% } %>    
+    </ul>
+    <h2>Model</h2>
+    <ul>
+    <% for (var i=0; i<results[2].length; i++){ %>
+        <li><%= results[2][i].model %> :  <%= results[2][i].count %></li>
+    <% } %>    
+    </ul>
+    <h2>Position</h2>
+    <ul>
+    <% for (var i=0; i<results[3].length; i++){ %>
+        <li><%= results[3][i].position %> :  <%= results[3][i].count %></li>
+    <% } %>    
+    </ul>
+</body>
+</html>
