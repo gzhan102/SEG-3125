@@ -1,0 +1,15 @@
+#intro {
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+.card {
+    width: 30%;
+}
+
+#course-name {
+    font-size: 8px;
+    font-style: italic;
+}

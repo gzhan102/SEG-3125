@@ -1,0 +1,24 @@
+body {
+    background-color: #FAEBD7
+}
+
+#navbar {
+    width: 20%;
+    height: 100vh;
+    transition: width 0.5s;
+}
+
+.navbar-nav {
+    transition: visibility 1s;
+}
+
+.nav-link {
+    color: white;
+    font-family: Copperplate, Papyrus, fantasy;
+    font-size: 2.5vw;
+    transition: color 0.5s;
+}
+
+.nav-link:hover {
+    color: #FF8C00;
+}

@@ -1,0 +1,42 @@
+[
+    {
+        "code": "ITI 1100",
+        "name": "Digital Systems I",
+        "intro": "Digital computers and information. Number systems and alphanumeric codes. Binary arithmetic. Boolean algebra. Logic functions representation, minimization and realization. Analysis, design and implementation of combinational circuits. Basic sequential circuits. Latches and flip-flops. Analysis and design of simple sequential circuits. Registers and counters. Implementation of digital circuits."
+    },
+    {
+        "code": "ITI 1120",
+        "name": "Introduction to Computing I",
+        "intro": "Problem solving and algorithm design. Basic principles of software engineering: structure decomposition, documentation, testing and debugging. Variable types, expressions and assignment. Conditional and iterative control structures. Modules and parameter passing. Recursion. Fundamental data structures: arrays, strings, matrices, records. Introduction to objects. Includes examples of applications in various disciplines, including engineering."
+    },
+    {
+        "code": "ITI 1121",
+        "name": "Introduction to Computing II",
+        "intro": "Object-oriented programming. Abstraction principles: information hiding and encapsulation. Linked lists, stacks, queues, binary search trees. Iterative and recursive processing of data structures. Virtual machines."
+    },
+    {
+        "code": "CSI 2101",
+        "name": "Discrete Structures",
+        "intro": "Discrete structures as they apply to computer science, algorithm analysis and design. Predicate logic. Review of proof techniques; application of induction to computing problems. Graph theory applications in information technology. Program correctness, preconditions, postconditions and invariants. Analysis of recursive programs using recurrence relations. Properties of integers and basic cryptographical applications."
+    },
+    {
+        "code": "CSI 2110",
+        "name": "Data Structures and Algorithms",
+        "intro": "The concept of abstract data types. Simple methods of complexity analysis. Trees. The search problem: balanced trees, binary-trees, hashing. Sorting. Graphs and simple graph algorithms: traversal, minimum spanning tree. Strings and pattern matching."
+    },
+    {
+        "code": "CSI 2120",
+        "name": "Programming Paradigms",
+        "intro": "Presentation of the major programming paradigms: object-oriented, imperative, logic, functional. Related programming languages, their essential properties and typical applications. Programming in imperative, logic and functional languages. Influence of programming paradigms on problem solving and program design strategies. An overview of other paradigms, such as constraint-based, rule-based and event-driven programming."
+    },
+    {
+        "code": "CSI 2132",
+        "name": "Databases I",
+        "intro": "Fundamental database concepts. Entity-Relationship modeling. Relational algebra and relational calculus. Relational databases. Database definition and manipulation using SQL. Embedded SQL. Functional dependencies and normalization. Introduction to physical database design. Design and implementation of a database application in a team project."
+    },
+    {
+        "code": "CSI 2372",
+        "name": "Advanced Programming Concepts With C++",
+        "intro": "Differences between C++ and Java programming. C++ data types. Pointers and memory management. Object oriented programming in C++. File and stream I/O. Pre-processor macros. Templates and the Standard Template Library. Numerical computation in C++. Interfacing with hardware. Engineering applications."
+    }
+]
